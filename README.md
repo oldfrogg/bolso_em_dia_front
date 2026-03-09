@@ -1,4 +1,4 @@
-# Front End GERENCIAMENTO DE LIVROS
+# Front End BOLSO EM DIA
 
 ## Sobre
 * Este repositório é um projeto acadêmico de desenvolvimento Front End.
