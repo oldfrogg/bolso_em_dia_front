@@ -17,7 +17,6 @@ import CriarEditarTransacao from './pages/CriarEditarTransacao/CriarEditarTransa
 import TransacoesPeriodo from './pages/TransacoesPeriodo/TransacoesPeriodo.jsx';
 import CriarUsuario from './pages/CriarUsuario/CriarUsuario.jsx';
 import EditarUsuario from './pages/EditarUsario/EditarUsuario.jsx';
-import TransacoesPeriodoComponente from './componentes/TransacoesPeriodoComponente/TransacoesPeriodoComponente.jsx';
 
 function App() {
   return (
@@ -29,7 +28,6 @@ function App() {
         <Route exact path='/meus_periodos/' element={<MeusPeriodos />} />
         <Route exact path='/criar_editar_transacao/:id?/' element={<CriarEditarTransacao />} />
         <Route exact path='/transacoes_periodo/' element={<TransacoesPeriodo />}></Route>
-        <Route exact path='/transacoes_periodo_componente/' element={<TransacoesPeriodoComponente />}></Route>
         <Route exact path='/criar_usuario/' element={<CriarUsuario />}></Route>
         <Route exact path='/editar_usuario/' element={<EditarUsuario />}></Route>
       </Routes>

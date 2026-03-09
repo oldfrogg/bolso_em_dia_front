@@ -1,70 +1,65 @@
-# Getting Started with Create React App
+# Front End GERENCIAMENTO DE LIVROS
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Sobre
+* Este repositório é um projeto acadêmico de desenvolvimento Front End.
+* Nele temos um site de navegação para controlar uma API de gerenciamento de cadastro do projeto 'Bolso em Dia' em uma interface amigável.
+* É necessário ter o Back End e o MySQL Server rodando em sua máquina para poder utilizar esse Front. Por isso, primeiro dirija-se ao [Back End](https://github.com/oldfrogg/bolso_em_dia_back) desse projeto e siga os passos para instalá-lo e executá-lo corretamente.
 
-## Available Scripts
+## Objetivos
+* Desenvolver uma interface agradável e intuitiva para o usuário utilizar o projeto 'Bolso em Dia', que permite controlar seu fluxo financeiro;
+* Familiarizar-se com o React e o Node.js;
+* Familiarizar-se com a criação e reutilização de componentes do React;
+* Trabalhar com rotas, props, hooks, e fazer requisições a um servidor local;
 
-In the project directory, you can run:
+## Rotas
+* / - Login;
+* /login/ - Login;
+* /home/ - Dashboard, mostra transações e saldo do período atual, além de contar com botão que leva à rota de criar uma transação;
+* /meus_periodos/ - Lista de períodos: Lista todos os períodos do usuário;
+* /criar_editar_transacao/:id?/ - Criar ou Editar Transação: Rota que permite ao usuário criar ou editar uma transação;
+* /transacoes_periodo/ - Transações de um período: Permite que o usuário visualize suas transações e saldo em qualquer período;
+* /criar_usuario/ - Criação de usuário: Permite o cadastro de um usuário novo;
+* /editar_usuario/ - Edição de usuário: Permite a edição do cadastro de um usuário existente.
 
-### `npm start`
+## Como utilizar
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Caso tenha o git instalado e configurado nas variáveis de ambiente do sistema, clonar através do
+```bash
+git clone https://github.com/oldfrogg/bolso_em_dia_front
+cd bolso_em_dia_front
+```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Também é possível fazer o download do projeto diretamente através do Github.
 
-### `npm test`
+É necessário ter o Node.JS instalado em sua máquina e as variáveis de ambiente relacionadas corretamente configuradas.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Para instalar os componentes necessários para a visualização do projeto, navegue via prompt de comando até o diretório onde estão os arquivos baixados.
 
-### `npm run build`
+- Abra o projeto no editor de sua preferência, e, na raiz do projeto, crie um arquivo ".env" e insira a seguinte variável de ambiente. É necessário utilizar a porta 3001, pois o Back estará rodando na porta 3000 e configurado para aceitar requisições da porta 3001.
+```env
+PORT=3001
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Então, instale os pacotes necessários para o projeto (descritos no package.json) através do seguinte comando:
+```bash
+> npm i
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Após a finalização da instalação das dependências, inicie o projeto através do comando:
+```bash
+> npm start
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Com isso a aplicação ficará ativa em um servidor local. 
+Você poderá acessá-lo através do navegador utilizando:
+```bash
+http://localhost:3001/
+```
+ou:
+```bash
+http://127.0.0.1:3001/
+```
 
-### `npm run eject`
+Agora já será possível trabalhar na aplicação a partir do navegador.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Para encerrar, basta, no prompt de comando, utilizar CTRL + 'C' e confirmar com 'S'.
