@@ -1,0 +1,20 @@
+.btn-primario {
+    background-color: aquamarine;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border-width: 0px;
+    border-style: none;
+    color: black;
+    text-decoration: none;
+    font-size: 1em;
+    margin: 5px 10px;
+    cursor: pointer;
+    box-sizing: border-box;
+    max-width: 400px;
+}
+
+#btn-deletar {
+    background-color:rgb(177, 5, 5);
+    color: yellow;
+    font-weight: 600;
+}

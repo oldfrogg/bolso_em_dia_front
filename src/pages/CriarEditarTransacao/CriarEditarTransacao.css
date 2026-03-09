@@ -1,0 +1,13 @@
+.div-criar-editar-transacao {
+    text-align: center;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.div-criar-editar-transacao input {
+    margin-left: 15px;
+}

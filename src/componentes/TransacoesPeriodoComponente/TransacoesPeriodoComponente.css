@@ -1,0 +1,21 @@
+.transacoes-periodo {
+    display: block;
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.transacao {
+    border: 1px solid;
+    margin: 15px 0;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.positivo {
+    color: green;
+}
+
+.negativo {
+    color: red;
+}

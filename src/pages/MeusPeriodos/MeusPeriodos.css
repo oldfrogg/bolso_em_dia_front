@@ -1,0 +1,12 @@
+.div-meus-periodos {
+    width: 70vw;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.div-periodo {
+    box-sizing: border-box;
+    border: 1px solid;
+    padding: 15px;
+    border-radius: 15px;
+}

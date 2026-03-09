@@ -1,0 +1,11 @@
+.home-page {
+    text-align: center;
+    margin: 30px auto 0px;
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    
+}
