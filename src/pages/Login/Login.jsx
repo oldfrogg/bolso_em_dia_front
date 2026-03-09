@@ -14,8 +14,6 @@ const Login = () => {
 
     async function fazerLogin(e) {
         e.preventDefault()
-        console.log(username)
-        console.log(senha)
 
         const dados = { username, senha }
 
