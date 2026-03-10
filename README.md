@@ -1,9 +1,10 @@
 # Front End BOLSO EM DIA
 
 ## Sobre
-- Este é um projeto acadêmico desenvolvido para a conclusão da Pós Graduação em Dev Foundations da FIAP em parceria com o BB, com a proposição de um desafio relacionado a temas bancários;
-- Nele temos um site de navegação para controlar uma API de gerenciamento de cadastro do projeto 'Bolso em Dia' em uma interface amigável;
-- É necessário ter o Back End e o MySQL Server rodando em sua máquina para poder utilizar esse Front. Por isso, primeiro dirija-se ao [Back End](https://github.com/oldfrogg/bolso_em_dia_back) desse projeto e siga os passos para instalá-lo e executá-lo corretamente.
+Este é um projeto acadêmico desenvolvido para a conclusão da Pós Graduação em Dev Foundations da FIAP em parceria com o BB, com a proposição de um desafio relacionado a temas bancários.
+Nele temos um site de navegação para controlar uma API de gerenciamento de cadastro do projeto 'Bolso em Dia' em uma interface amigável.
+
+É necessário ter o Back End e o MySQL Server rodando em sua máquina para poder utilizar esse Front. Por isso, primeiro dirija-se ao [Back End](https://github.com/oldfrogg/bolso_em_dia_back) desse projeto e siga os passos para instalá-lo e executá-lo corretamente.
 
 ## Objetivos
 - Conclusão da Pós Graduação em Dev Foundations da FIAP;
@@ -21,46 +22,46 @@
 
 ## Instalando o projeto
 
-- É necessário ter o Node.JS instalado em sua máquina e as variáveis de ambiente relacionadas corretamente configuradas.
+É necessário ter o Node.JS instalado em sua máquina e as variáveis de ambiente relacionadas corretamente configuradas.
 
-- Lembrar de, a cada instalação que altere as variáveis de ambiente do sistema, reiniciar o terminal e/ou o editor.
+Lembrar de, a cada instalação que altere as variáveis de ambiente do sistema, reiniciar o terminal e/ou o editor.
 
 ### 1 - Clonando o repositório
-- Navegue via prompt de comando até o diretório onde deseja efetuar a instalação. 
+Navegue via prompt de comando até o diretório onde deseja efetuar a instalação. 
 
-- Caso tenha o git instalado e configurado nas variáveis de ambiente do sistema, clonar através do
+Caso tenha o git instalado e configurado nas variáveis de ambiente do sistema, clonar através do
 ```bash
 git clone https://github.com/oldfrogg/bolso_em_dia_front
 cd bolso_em_dia_front
 ```
 
-- Também é possível fazer o download do projeto diretamente através do Github.
+Também é possível fazer o download do projeto diretamente através do Github.
 
 ### 2 - Criando o arquivo .env na raiz do projeto
 
-- Abra o projeto no editor de sua preferência, e, na raiz do projeto, crie um arquivo ".env" e insira a seguinte variável de ambiente:
+Abra o projeto no editor de sua preferência, e, na raiz do projeto, crie um arquivo ".env" e insira a seguinte variável de ambiente:
 
 ```env
 PORT=3001
 ```
 
-- É necessário utilizar a porta 3001, pois o Back estará rodando na porta 3000 e configurado para aceitar requisições da porta 3001.
+É necessário utilizar a porta 3001, pois o Back estará rodando na porta 3000 e configurado para aceitar requisições da porta 3001.
 
 ### 3 - Instalando as dependências
-- Estando no diretório do arquivo através do terminal, instalar as dependências necessárias:
+Estando no diretório do arquivo através do terminal, instalar as dependências necessárias:
 
 ```bash
 npm i
 ```
 
 ### 4 - Executando a aplicação
-- Execute o comando, para rodar a aplicação:
+Execute o comando, para rodar a aplicação:
 ```bash
 npm start
 ```
 
 ### 5 - Utilizando a aplicação
-- Com isso a aplicação ficará ativa em um servidor local. 
+Com isso a aplicação ficará ativa em um servidor local. 
 Você poderá acessá-lo através do navegador utilizando:
 ```bash
 http://localhost:3001/
@@ -70,9 +71,9 @@ ou:
 http://127.0.0.1:3001/
 ```
 
-- Agora já será possível trabalhar na aplicação a partir do navegador.
+Agora já será possível trabalhar na aplicação a partir do navegador.
 
-- Para encerrar, basta, no prompt de comando, utilizar CTRL + 'C' e confirmar com 'S'.
+Para encerrar, basta, no prompt de comando, utilizar CTRL + 'C' e confirmar com 'S'.
 
 ## Rotas
 - / - Login;
