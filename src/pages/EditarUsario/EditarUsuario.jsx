@@ -59,7 +59,7 @@ const EditarUsuario = () => {
     }
 
     const deletarUsuario = async () => {
-        if (!confirm("Certeza que deseja deletar o seu cadastro?")) {
+        if (!window.confirm("Certeza que deseja deletar o seu cadastro?")) {
             return
         }
         try {

@@ -94,7 +94,7 @@ const TransacoesPeriodoComponente = ({ periodoId }) => {
     const saldo = saldoPeriodo()
 
     const deletarTransacao = async (id) => {
-        if (!confirm("Certeza que deseja deletar a transação?")) {
+        if (!window.confirm("Certeza que deseja deletar a transação?")) {
             return
         }
         try {
